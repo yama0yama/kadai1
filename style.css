@@ -71,20 +71,25 @@ footer {
     width: 100%;
   }
   
-  .step-box {
+   .step-box {
     width: 90%;
     margin: auto 5%;
+    margin-bottom: 20px;
   }
 
+  .step-box:last-child {
+  margin-bottom: 0;
+  }
+  
   .step-img1 {
-    height: 345px;
+    height: 150px;
   }
 
   .step-img2 {
-    height: 345px;
+    height: 150px;
   }
 
    .step-img3 {
-    height: 345px;
+    height: 150px;
   }
 }
